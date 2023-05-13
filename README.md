@@ -1,10 +1,18 @@
-# Descrição do Projeto de Design System usando Monorepo
+# Challenge 05 - Design system.
 
-Este projeto consiste em um Design System usando o Monorepo como estratégia para organizar e compartilhar código entre múltiplos projetos. Para isso, utilizou-se o recurso de Workspaces do NPM.
+Este projeto foi desenvolvido durante o módulo 05 do ignite React, e como desafio, foi proposto a criação de dois novos componentes para o desing system, e a documentação deles no storybook. 
+
+Durante o módulo, pude aprender como funciona um  Design System voltado para o react, e o uso Monorepo como estratégia para organizar e compartilhar código entre múltiplos projetos. Para isso, utilizou-se o recurso de Workspaces do NPM.
+
+## Instalação e uso
+ - git clone git@github.com:julianosouzza90/challenge-ignite-react-desing-system.git desing_system
+ - cd desing_system
+ - npm install
+ - npm run dev
 
 ## Dependências
 
-As dependências utilizadas neste projeto são as seguintes:
+Algumas das dependências utilizadas:
 
 - `@changesets/cli@^2.25.0`: ferramenta para gerenciamento de versionamento e mudanças em projetos.
 - `turbo@^1.5.5`: biblioteca para melhoria de performance em aplicações web.
@@ -17,23 +25,3 @@ As dependências utilizadas neste projeto são as seguintes:
 - `@storybook/react-webpack5@^7.0.11`: configuração webpack5 para o Storybook com React.
 - `@storybook/storybook-deployer@^2.8.16`: ferramenta para deploy do Storybook.
 - `@storybook/testing-library@^0.0.14-next.2`: biblioteca para testes do Storybook.
-
-## Formato
-
-Todo o projeto está disponível em um repositório no GitHub e é organizado em pastas separadas para cada um dos pacotes (workspaces) utilizados. As pastas são estruturadas da seguinte forma:
-
-packages/
-component-1/
-src/
-Component1.tsx
-package.json
-component-2/
-src/
-Component2.tsx
-package.json
-...
-
-
-Cada pasta contém o código fonte do pacote correspondente, bem como um arquivo `package.json` para gerenciamento de dependências e scripts de build. 
-
-O projeto utiliza o padrão de `npm scripts` para executar tarefas de build e testes automatizados. Além disso, os componentes podem ser visualizados e testados através do Storybook, que é configurado de forma global para todo o projeto.
