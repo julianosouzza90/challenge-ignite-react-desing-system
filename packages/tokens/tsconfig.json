@@ -1,0 +1,4 @@
+{
+  "extends": "@jsouzza/ts-config/base.json",
+  "include": ["src"]
+}

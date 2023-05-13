@@ -1,0 +1,39 @@
+{
+  "name": "@jsouzza/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.5",
+    "@jsouzza/eslint-config": "*",
+    "@jsouzza/react": "*",
+    "@jsouzza/ts-config": "*",
+    "@storybook/addon-essentials": "^7.0.11",
+    "@storybook/addon-interactions": "^7.0.11",
+    "@storybook/addon-links": "^7.0.11",
+    "@storybook/blocks": "^7.0.11",
+    "@storybook/react": "^7.0.11",
+    "@storybook/react-webpack5": "^7.0.11",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "eslint": "^8.40.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@storybook/theming": "^7.0.11"
+  }
+}
