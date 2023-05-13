@@ -8,7 +8,6 @@
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
     "deploy-storybook": "storybook-to-ghpages"
-    
   },
   "keywords": [],
   "author": "",
@@ -26,6 +25,7 @@
     "@storybook/blocks": "^7.0.11",
     "@storybook/react": "^7.0.11",
     "@storybook/react-webpack5": "^7.0.11",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/testing-library": "^0.0.14-next.2",
     "eslint": "^8.40.0",
     "react": "^18.2.0",
