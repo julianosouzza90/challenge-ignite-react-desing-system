@@ -16,7 +16,6 @@ Algumas das dependências utilizadas:
 
 - `@changesets/cli@^2.25.0`: ferramenta para gerenciamento de versionamento e mudanças em projetos.
 - `turbo@^1.5.5`: biblioteca para melhoria de performance em aplicações web.
-- `@jsouzza/ts-config@*`: configuração TypeScript personalizada.
 - `@storybook/addon-essentials@^7.0.11`: conjunto de addons essenciais para o Storybook.
 - `@storybook/addon-interactions@^7.0.11`: addon para permitir interações com componentes do Storybook.
 - `@storybook/addon-links@^7.0.11`: addon para adicionar links em componentes do Storybook.
